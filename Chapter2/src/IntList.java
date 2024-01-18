@@ -6,6 +6,10 @@ public class IntList {
         rest = r;
     }
 
+    public void addFirst(int x) {
+        IntList p = new IntList()
+    }
+
     public int size(){
         IntList p = this;
         int i = 1;
@@ -15,7 +19,16 @@ public class IntList {
             i = p.rest.size() + 1;
         }
         return i;
+    }
 
+    public int iterativeSize(){
+        IntList p = this;
+        int i = 1;
+        while (p.rest != null){
+            i = i + 1;
+            p = p.rest;
+        }
+        return i;
 
     }
 
