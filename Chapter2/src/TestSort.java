@@ -56,9 +56,16 @@ public class TestSort {
 //        L2.addFirst(6);
 //        L2.addFirst(9);
 
-        IntList L3 = new IntList(10,null);
-        L3.addFirst(20);
-        L3.addFirst(30);
+//        IntList L3 = new IntList(10,null);
+//        L3.addFirst(20);
+//        L3.addFirst(30);
+//        L3.addFirst(40);
+
+//        SLList L4 = new SLList(10);
+//        L4.addLast(20);
+//        L4.addLast(30);
+//        L4.addLast(40);
+//        System.out.println(L4.size());
 
 //        System.out.println(L1.first);
 //        System.out.println(L2.first);
